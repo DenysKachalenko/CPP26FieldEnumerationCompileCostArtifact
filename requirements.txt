@@ -1,0 +1,10 @@
+# Python 3.13 (the sessions and the analysis ran on CPython 3.13.1, Windows 11).
+#
+# Analysis: regenerating every number, the paper check and the figures
+# (Harness/papernumbers.py, stats.py, paperlint.py, figures.py, tolatex.py).
+numpy==2.5.1
+matplotlib==3.11.0
+
+# Measuring only (Harness/campaign.py, machine.py, pfrprobe.py, overnight.sh): also install
+# psutil. Not needed to reproduce the numbers from the archived data.
+# psutil==7.2.2

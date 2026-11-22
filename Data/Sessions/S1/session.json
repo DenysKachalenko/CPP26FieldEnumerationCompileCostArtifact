@@ -1,0 +1,41 @@
+{
+ "compilers": {
+  "default": {
+   "path": "C:/msys64/home/kacha/gcc-16.2.0-install/bin/g++.exe",
+   "version": "g++.exe (GCC) 16.2.0",
+   "driver_sha256": "7d00bd68872d052781562865fb53952ee948cb223182550c020f424c38aab1f8",
+   "cc1plus_sha256": "dd36b16379f8edfc95ec4c27486523f98ce69454da74f6ce5c431df74d800b24"
+  },
+  "GCC161": {
+   "path": "C:/msys64/home/kacha/gcc-16-install/bin/g++.exe",
+   "version": "g++.exe (GCC) 16.1.0",
+   "driver_sha256": "3475f7dd70af45fe4a807f5554353d18921c9a157b8807778b91cae14a1c6b64",
+   "cc1plus_sha256": "ae327cf6517712853b02de5cadb258db8163b0f61251b0e47bd4d72f4570ce95"
+  }
+ },
+ "fingerprint": "503f8c0a54d7c98e77610949241586281f8528b39b9b8a555108cb81b3321c83",
+ "protocol": {
+  "warmup": 1,
+  "rounds": 11,
+  "passes_per_round": 1,
+  "load": "recorded per compile, no gate",
+  "other_core_busy_pct": 50.0,
+  "power_plan": "8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c"
+ },
+ "created_utc": "2026-11-18T21:02:35+00:00",
+ "pilot": false,
+ "preflight": {
+  "default": {
+   "ok": true,
+   "utc": "2026-11-18T21:02:47+00:00",
+   "fingerprint": "503f8c0a54d7c98e77610949241586281f8528b39b9b8a555108cb81b3321c83",
+   "cc1plus_sha256": "dd36b16379f8edfc95ec4c27486523f98ce69454da74f6ce5c431df74d800b24"
+  },
+  "GCC161": {
+   "ok": true,
+   "utc": "2026-11-18T21:02:47+00:00",
+   "fingerprint": "503f8c0a54d7c98e77610949241586281f8528b39b9b8a555108cb81b3321c83",
+   "cc1plus_sha256": "ae327cf6517712853b02de5cadb258db8163b0f61251b0e47bd4d72f4570ce95"
+  }
+ }
+}

@@ -1,0 +1,229 @@
+[00:20:50] session S2: default=C:/msys64/home/kacha/gcc-16.2.0-install/bin/g++.exe, GCC161=C:/msys64/home/kacha/gcc-16-install/bin/g++.exe; pinned to performance CPUs [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+[00:21:01] machine load before start: 6.1% (busiest: python.exe 0.8%, Code.exe 0.7%, dwm.exe 0.7%, webwallpaper64.exe 0.5%)
+[00:21:01] preflight on g++.exe (GCC) 16.2.0: passed on 2026-11-17T23:40:59+00:00 for this code and compiler, reused
+[00:21:01] preflight passed
+[00:21:01] preflight on g++.exe (GCC) 16.1.0: passed on 2026-11-18T00:57:28+00:00 for this code and compiler, reused
+[00:21:01] preflight passed
+[00:21:01] generating corpora and resolving compiler command lines ...
+[00:21:16] job FrontendN: 60 cells x 12 rounds
+[00:26:18]   FrontendN round 1/12 (warm-up): 62 compiles, 303 s, sentinel 1.87->1.80 s, load median 11% max 28%
+[00:31:20]   FrontendN round 2/12 (measured): 62 compiles, 302 s, sentinel 1.85->1.83 s, load median 11% max 32%
+[00:36:21]   FrontendN round 3/12 (measured): 62 compiles, 301 s, sentinel 1.84->1.84 s, load median 12% max 25%
+[00:41:21]   FrontendN round 4/12 (measured): 62 compiles, 300 s, sentinel 1.83->1.82 s, load median 8% max 15%
+[00:46:26]   FrontendN round 5/12 (measured): 62 compiles, 305 s, sentinel 1.81->1.83 s, load median 12% max 35%
+[00:51:26]   FrontendN round 6/12 (measured): 62 compiles, 300 s, sentinel 1.82->1.83 s, load median 7% max 17%
+[00:56:23]   FrontendN round 7/12 (measured): 62 compiles, 298 s, sentinel 1.84->1.92 s, load median 7% max 14%
+[01:01:21]   FrontendN round 8/12 (measured): 62 compiles, 297 s, sentinel 1.81->1.83 s, load median 8% max 12%
+[01:06:18]   FrontendN round 9/12 (measured): 62 compiles, 297 s, sentinel 1.82->1.82 s, load median 8% max 11%
+[01:11:15]   FrontendN round 10/12 (measured): 62 compiles, 297 s, sentinel 1.80->1.84 s, load median 8% max 16%
+[01:16:14]   FrontendN round 11/12 (measured): 62 compiles, 299 s, sentinel 1.80->1.82 s, load median 8% max 40%
+[01:21:10]   FrontendN round 12/12 (measured): 62 compiles, 296 s, sentinel 1.79->1.81 s, load median 7% max 16%
+[01:21:10] job FrontendHeavy: 35 cells x 12 rounds
+[01:22:21]   FrontendHeavy round 1/12 (warm-up): 37 compiles, 71 s, sentinel 0.46->0.45 s, load median 8% max 14%
+[01:23:32]   FrontendHeavy round 2/12 (measured): 37 compiles, 71 s, sentinel 0.46->0.46 s, load median 7% max 11%
+[01:24:43]   FrontendHeavy round 3/12 (measured): 37 compiles, 71 s, sentinel 0.45->0.46 s, load median 8% max 13%
+[01:25:54]   FrontendHeavy round 4/12 (measured): 37 compiles, 71 s, sentinel 0.46->0.44 s, load median 7% max 15%
+[01:27:05]   FrontendHeavy round 5/12 (measured): 37 compiles, 71 s, sentinel 0.45->0.46 s, load median 7% max 13%
+[01:28:16]   FrontendHeavy round 6/12 (measured): 37 compiles, 71 s, sentinel 0.46->0.45 s, load median 7% max 13%
+[01:29:27]   FrontendHeavy round 7/12 (measured): 37 compiles, 71 s, sentinel 0.46->0.46 s, load median 7% max 12%
+[01:30:38]   FrontendHeavy round 8/12 (measured): 37 compiles, 71 s, sentinel 0.46->0.46 s, load median 8% max 20%
+[01:31:49]   FrontendHeavy round 9/12 (measured): 37 compiles, 71 s, sentinel 0.46->0.45 s, load median 8% max 21%
+[01:33:00]   FrontendHeavy round 10/12 (measured): 37 compiles, 71 s, sentinel 0.45->0.47 s, load median 7% max 12%
+[01:34:11]   FrontendHeavy round 11/12 (measured): 37 compiles, 71 s, sentinel 0.45->0.45 s, load median 7% max 17%
+[01:35:23]   FrontendHeavy round 12/12 (measured): 37 compiles, 71 s, sentinel 0.45->0.45 s, load median 7% max 16%
+[01:35:23] job FrontendM: 78 cells x 12 rounds
+[01:38:31]   FrontendM round 1/12 (warm-up): 80 compiles, 189 s, sentinel 0.43->0.42 s, load median 7% max 16%
+[01:41:40]   FrontendM round 2/12 (measured): 80 compiles, 189 s, sentinel 0.42->0.42 s, load median 8% max 16%
+[01:44:49]   FrontendM round 3/12 (measured): 80 compiles, 189 s, sentinel 0.44->0.45 s, load median 7% max 19%
+[01:47:58]   FrontendM round 4/12 (measured): 80 compiles, 189 s, sentinel 0.44->0.43 s, load median 8% max 34%
+[01:51:07]   FrontendM round 5/12 (measured): 80 compiles, 189 s, sentinel 0.44->0.44 s, load median 7% max 12%
+[01:54:16]   FrontendM round 6/12 (measured): 80 compiles, 189 s, sentinel 0.42->0.43 s, load median 7% max 18%
+[01:57:25]   FrontendM round 7/12 (measured): 80 compiles, 189 s, sentinel 0.44->0.44 s, load median 7% max 19%
+[02:00:33]   FrontendM round 8/12 (measured): 80 compiles, 189 s, sentinel 0.45->0.45 s, load median 7% max 13%
+[02:03:42]   FrontendM round 9/12 (measured): 80 compiles, 189 s, sentinel 0.45->0.43 s, load median 7% max 17%
+[02:06:50]   FrontendM round 10/12 (measured): 80 compiles, 188 s, sentinel 0.42->0.43 s, load median 7% max 23%
+[02:09:58]   FrontendM round 11/12 (measured): 80 compiles, 188 s, sentinel 0.44->0.44 s, load median 8% max 13%
+[02:13:06]   FrontendM round 12/12 (measured): 80 compiles, 188 s, sentinel 0.42->0.44 s, load median 8% max 12%
+[02:13:06] job RichN: 80 cells x 12 rounds
+[02:14:48]   RichN round 1/12 (warm-up): 82 compiles, 102 s, sentinel 0.47->0.46 s, load median 7% max 15%
+[02:16:31]   RichN round 2/12 (measured): 82 compiles, 102 s, sentinel 0.47->0.46 s, load median 8% max 27%
+[02:18:12]   RichN round 3/12 (measured): 82 compiles, 102 s, sentinel 0.47->0.48 s, load median 8% max 17%
+[02:19:54]   RichN round 4/12 (measured): 82 compiles, 102 s, sentinel 0.46->0.47 s, load median 7% max 16%
+[02:21:36]   RichN round 5/12 (measured): 82 compiles, 102 s, sentinel 0.46->0.47 s, load median 7% max 12%
+[02:23:18]   RichN round 6/12 (measured): 82 compiles, 102 s, sentinel 0.46->0.46 s, load median 7% max 14%
+[02:25:00]   RichN round 7/12 (measured): 82 compiles, 102 s, sentinel 0.47->0.47 s, load median 7% max 12%
+[02:26:42]   RichN round 8/12 (measured): 82 compiles, 102 s, sentinel 0.46->0.47 s, load median 7% max 15%
+[02:28:24]   RichN round 9/12 (measured): 82 compiles, 102 s, sentinel 0.47->0.46 s, load median 7% max 14%
+[02:30:06]   RichN round 10/12 (measured): 82 compiles, 102 s, sentinel 0.46->0.48 s, load median 7% max 20%
+[02:31:48]   RichN round 11/12 (measured): 82 compiles, 103 s, sentinel 0.48->0.46 s, load median 7% max 31%
+[02:33:30]   RichN round 12/12 (measured): 82 compiles, 102 s, sentinel 0.46->0.46 s, load median 7% max 21%
+[02:33:30] job HeteroN: 55 cells x 12 rounds
+[02:36:19]   HeteroN round 1/12 (warm-up): 57 compiles, 168 s, sentinel 1.54->1.55 s, load median 7% max 24%
+[02:39:07]   HeteroN round 2/12 (measured): 57 compiles, 168 s, sentinel 1.55->1.54 s, load median 7% max 12%
+[02:41:55]   HeteroN round 3/12 (measured): 57 compiles, 168 s, sentinel 1.52->1.52 s, load median 7% max 13%
+[02:44:43]   HeteroN round 4/12 (measured): 57 compiles, 168 s, sentinel 1.53->1.53 s, load median 7% max 12%
+[02:47:31]   HeteroN round 5/12 (measured): 57 compiles, 168 s, sentinel 1.54->1.51 s, load median 8% max 20%
+[02:50:19]   HeteroN round 6/12 (measured): 57 compiles, 168 s, sentinel 1.53->1.52 s, load median 8% max 16%
+[02:53:11]   HeteroN round 7/12 (measured): 57 compiles, 172 s, sentinel 1.52->1.57 s, load median 9% max 15%
+[02:56:01]   HeteroN round 8/12 (measured): 57 compiles, 170 s, sentinel 1.52->1.52 s, load median 8% max 14%
+[02:58:50]   HeteroN round 9/12 (measured): 57 compiles, 169 s, sentinel 1.53->1.57 s, load median 8% max 27%
+[03:01:39]   HeteroN round 10/12 (measured): 57 compiles, 168 s, sentinel 1.52->1.51 s, load median 7% max 22%
+[03:04:25]   HeteroN round 11/12 (measured): 57 compiles, 167 s, sentinel 1.50->1.51 s, load median 7% max 15%
+[03:07:13]   HeteroN round 12/12 (measured): 57 compiles, 168 s, sentinel 1.52->1.51 s, load median 8% max 14%
+[03:07:13] job HeteroHeavy: 35 cells x 12 rounds
+[03:09:13]   HeteroHeavy round 1/12 (warm-up): 37 compiles, 120 s, sentinel 0.60->0.59 s, load median 8% max 15%
+[03:11:13]   HeteroHeavy round 2/12 (measured): 37 compiles, 120 s, sentinel 0.60->0.59 s, load median 7% max 11%
+[03:13:14]   HeteroHeavy round 3/12 (measured): 37 compiles, 121 s, sentinel 0.59->0.60 s, load median 7% max 10%
+[03:15:14]   HeteroHeavy round 4/12 (measured): 37 compiles, 120 s, sentinel 0.59->0.59 s, load median 7% max 13%
+[03:17:15]   HeteroHeavy round 5/12 (measured): 37 compiles, 121 s, sentinel 0.59->0.59 s, load median 7% max 13%
+[03:19:16]   HeteroHeavy round 6/12 (measured): 37 compiles, 121 s, sentinel 0.59->0.59 s, load median 7% max 10%
+[03:21:16]   HeteroHeavy round 7/12 (measured): 37 compiles, 121 s, sentinel 0.59->0.60 s, load median 8% max 20%
+[03:23:17]   HeteroHeavy round 8/12 (measured): 37 compiles, 120 s, sentinel 0.59->0.59 s, load median 7% max 10%
+[03:25:18]   HeteroHeavy round 9/12 (measured): 37 compiles, 121 s, sentinel 0.59->0.59 s, load median 8% max 14%
+[03:27:18]   HeteroHeavy round 10/12 (measured): 37 compiles, 120 s, sentinel 0.61->0.59 s, load median 8% max 15%
+[03:29:18]   HeteroHeavy round 11/12 (measured): 37 compiles, 120 s, sentinel 0.60->0.62 s, load median 7% max 11%
+[03:31:19]   HeteroHeavy round 12/12 (measured): 37 compiles, 121 s, sentinel 0.60->0.59 s, load median 7% max 10%
+[03:31:19] job FullN: 60 cells x 12 rounds
+[03:33:16]   FullN round 1/12 (warm-up): 62 compiles, 117 s, sentinel 1.71->1.69 s, load median 8% max 25%
+[03:35:13]   FullN round 2/12 (measured): 62 compiles, 116 s, sentinel 1.68->1.68 s, load median 7% max 12%
+[03:37:10]   FullN round 3/12 (measured): 62 compiles, 117 s, sentinel 1.70->1.71 s, load median 7% max 16%
+[03:39:06]   FullN round 4/12 (measured): 62 compiles, 116 s, sentinel 1.70->1.70 s, load median 7% max 13%
+[03:41:03]   FullN round 5/12 (measured): 62 compiles, 116 s, sentinel 1.70->1.69 s, load median 8% max 22%
+[03:43:00]   FullN round 6/12 (measured): 62 compiles, 117 s, sentinel 1.72->1.70 s, load median 8% max 15%
+[03:44:56]   FullN round 7/12 (measured): 62 compiles, 117 s, sentinel 1.71->1.70 s, load median 7% max 12%
+[03:46:53]   FullN round 8/12 (measured): 62 compiles, 117 s, sentinel 1.70->1.69 s, load median 7% max 20%
+[03:48:50]   FullN round 9/12 (measured): 62 compiles, 117 s, sentinel 1.72->1.71 s, load median 8% max 12%
+[03:50:46]   FullN round 10/12 (measured): 62 compiles, 117 s, sentinel 1.73->1.71 s, load median 7% max 14%
+[03:52:43]   FullN round 11/12 (measured): 62 compiles, 116 s, sentinel 1.70->1.71 s, load median 7% max 13%
+[03:54:40]   FullN round 12/12 (measured): 62 compiles, 117 s, sentinel 1.72->1.71 s, load median 7% max 12%
+[03:54:40] job FullHeavy: 28 cells x 12 rounds
+[03:55:48]   FullHeavy round 1/12 (warm-up): 30 compiles, 69 s, sentinel 0.72->0.68 s, load median 8% max 13%
+[03:56:57]   FullHeavy round 2/12 (measured): 30 compiles, 69 s, sentinel 0.69->0.70 s, load median 8% max 13%
+[03:58:06]   FullHeavy round 3/12 (measured): 30 compiles, 69 s, sentinel 0.70->0.70 s, load median 7% max 13%
+[03:59:14]   FullHeavy round 4/12 (measured): 30 compiles, 69 s, sentinel 0.70->0.70 s, load median 8% max 17%
+[04:00:23]   FullHeavy round 5/12 (measured): 30 compiles, 68 s, sentinel 0.70->0.70 s, load median 8% max 13%
+[04:01:32]   FullHeavy round 6/12 (measured): 30 compiles, 69 s, sentinel 0.71->0.69 s, load median 7% max 13%
+[04:02:41]   FullHeavy round 7/12 (measured): 30 compiles, 69 s, sentinel 0.71->0.71 s, load median 8% max 27%
+[04:03:49]   FullHeavy round 8/12 (measured): 30 compiles, 69 s, sentinel 0.71->0.71 s, load median 8% max 14%
+[04:04:58]   FullHeavy round 9/12 (measured): 30 compiles, 69 s, sentinel 0.71->0.71 s, load median 7% max 12%
+[04:06:06]   FullHeavy round 10/12 (measured): 30 compiles, 68 s, sentinel 0.69->0.71 s, load median 7% max 12%
+[04:07:15]   FullHeavy round 11/12 (measured): 30 compiles, 69 s, sentinel 0.69->0.72 s, load median 8% max 14%
+[04:08:24]   FullHeavy round 12/12 (measured): 30 compiles, 68 s, sentinel 0.70->0.71 s, load median 7% max 12%
+[04:08:24] job FlagCost: 24 cells x 12 rounds
+[04:08:53]   FlagCost round 1/12 (warm-up): 26 compiles, 29 s, sentinel 1.87->1.87 s, load median 8% max 10%
+[04:09:21]   FlagCost round 2/12 (measured): 26 compiles, 29 s, sentinel 1.87->1.87 s, load median 8% max 24%
+[04:09:50]   FlagCost round 3/12 (measured): 26 compiles, 29 s, sentinel 1.87->1.88 s, load median 7% max 9%
+[04:10:18]   FlagCost round 4/12 (measured): 26 compiles, 29 s, sentinel 1.87->1.86 s, load median 8% max 11%
+[04:10:47]   FlagCost round 5/12 (measured): 26 compiles, 29 s, sentinel 1.87->1.88 s, load median 8% max 10%
+[04:11:16]   FlagCost round 6/12 (measured): 26 compiles, 29 s, sentinel 1.85->1.88 s, load median 8% max 11%
+[04:11:44]   FlagCost round 7/12 (measured): 26 compiles, 28 s, sentinel 1.85->1.82 s, load median 9% max 16%
+[04:12:13]   FlagCost round 8/12 (measured): 26 compiles, 29 s, sentinel 1.83->1.88 s, load median 7% max 11%
+[04:12:41]   FlagCost round 9/12 (measured): 26 compiles, 29 s, sentinel 1.88->1.90 s, load median 7% max 18%
+[04:13:10]   FlagCost round 10/12 (measured): 26 compiles, 29 s, sentinel 1.91->1.86 s, load median 7% max 10%
+[04:13:39]   FlagCost round 11/12 (measured): 26 compiles, 28 s, sentinel 1.85->1.85 s, load median 7% max 12%
+[04:14:07]   FlagCost round 12/12 (measured): 26 compiles, 28 s, sentinel 1.86->1.90 s, load median 7% max 12%
+[04:14:07] job FlagCostHeavy: 16 cells x 12 rounds
+[04:15:19]   FlagCostHeavy round 1/12 (warm-up): 18 compiles, 72 s, sentinel 4.17->4.13 s, load median 7% max 14%
+[04:16:30]   FlagCostHeavy round 2/12 (measured): 18 compiles, 71 s, sentinel 4.10->4.11 s, load median 8% max 15%
+[04:17:41]   FlagCostHeavy round 3/12 (measured): 18 compiles, 71 s, sentinel 4.09->4.11 s, load median 8% max 23%
+[04:18:53]   FlagCostHeavy round 4/12 (measured): 18 compiles, 72 s, sentinel 4.07->4.15 s, load median 7% max 13%
+[04:20:04]   FlagCostHeavy round 5/12 (measured): 18 compiles, 71 s, sentinel 4.17->4.11 s, load median 8% max 12%
+[04:21:16]   FlagCostHeavy round 6/12 (measured): 18 compiles, 71 s, sentinel 4.10->4.12 s, load median 8% max 8%
+[04:22:27]   FlagCostHeavy round 7/12 (measured): 18 compiles, 71 s, sentinel 4.11->4.08 s, load median 7% max 13%
+[04:23:38]   FlagCostHeavy round 8/12 (measured): 18 compiles, 71 s, sentinel 4.10->4.06 s, load median 7% max 9%
+[04:24:50]   FlagCostHeavy round 9/12 (measured): 18 compiles, 72 s, sentinel 4.08->4.17 s, load median 8% max 12%
+[04:26:01]   FlagCostHeavy round 10/12 (measured): 18 compiles, 71 s, sentinel 4.20->4.11 s, load median 7% max 11%
+[04:27:12]   FlagCostHeavy round 11/12 (measured): 18 compiles, 71 s, sentinel 4.11->4.09 s, load median 7% max 9%
+[04:28:23]   FlagCostHeavy round 12/12 (measured): 18 compiles, 71 s, sentinel 4.09->4.09 s, load median 8% max 10%
+[04:28:23] job ReportOverhead: 18 cells x 12 rounds
+[04:28:56]   ReportOverhead round 1/12 (warm-up): 20 compiles, 32 s, sentinel 1.85->1.87 s, load median 7% max 9%
+[04:29:28]   ReportOverhead round 2/12 (measured): 20 compiles, 33 s, sentinel 1.89->1.84 s, load median 8% max 17%
+[04:30:01]   ReportOverhead round 3/12 (measured): 20 compiles, 33 s, sentinel 1.84->1.89 s, load median 8% max 11%
+[04:30:34]   ReportOverhead round 4/12 (measured): 20 compiles, 33 s, sentinel 1.87->1.90 s, load median 8% max 11%
+[04:31:07]   ReportOverhead round 5/12 (measured): 20 compiles, 33 s, sentinel 1.91->1.86 s, load median 7% max 10%
+[04:31:39]   ReportOverhead round 6/12 (measured): 20 compiles, 33 s, sentinel 1.85->1.86 s, load median 8% max 17%
+[04:32:12]   ReportOverhead round 7/12 (measured): 20 compiles, 33 s, sentinel 1.86->1.87 s, load median 10% max 25%
+[04:32:44]   ReportOverhead round 8/12 (measured): 20 compiles, 33 s, sentinel 1.87->1.90 s, load median 7% max 10%
+[04:33:17]   ReportOverhead round 9/12 (measured): 20 compiles, 33 s, sentinel 1.91->1.87 s, load median 7% max 10%
+[04:33:50]   ReportOverhead round 10/12 (measured): 20 compiles, 33 s, sentinel 1.86->1.87 s, load median 8% max 12%
+[04:34:22]   ReportOverhead round 11/12 (measured): 20 compiles, 33 s, sentinel 1.88->1.86 s, load median 7% max 13%
+[04:34:55]   ReportOverhead round 12/12 (measured): 20 compiles, 33 s, sentinel 1.87->1.87 s, load median 8% max 10%
+[04:34:55] job OverloadN: 40 cells x 12 rounds
+[04:35:32]   OverloadN round 1/12 (warm-up): 42 compiles, 37 s, sentinel 0.40->0.40 s, load median 7% max 13%
+[04:36:08]   OverloadN round 2/12 (measured): 42 compiles, 37 s, sentinel 0.40->0.39 s, load median 7% max 13%
+[04:36:45]   OverloadN round 3/12 (measured): 42 compiles, 37 s, sentinel 0.41->0.40 s, load median 7% max 16%
+[04:37:22]   OverloadN round 4/12 (measured): 42 compiles, 37 s, sentinel 0.40->0.40 s, load median 7% max 14%
+[04:37:59]   OverloadN round 5/12 (measured): 42 compiles, 37 s, sentinel 0.40->0.39 s, load median 7% max 10%
+[04:38:35]   OverloadN round 6/12 (measured): 42 compiles, 37 s, sentinel 0.39->0.40 s, load median 7% max 11%
+[04:39:12]   OverloadN round 7/12 (measured): 42 compiles, 37 s, sentinel 0.40->0.39 s, load median 7% max 11%
+[04:39:49]   OverloadN round 8/12 (measured): 42 compiles, 37 s, sentinel 0.39->0.40 s, load median 7% max 12%
+[04:40:25]   OverloadN round 9/12 (measured): 42 compiles, 37 s, sentinel 0.40->0.40 s, load median 7% max 21%
+[04:41:02]   OverloadN round 10/12 (measured): 42 compiles, 37 s, sentinel 0.40->0.40 s, load median 7% max 13%
+[04:41:39]   OverloadN round 11/12 (measured): 42 compiles, 37 s, sentinel 0.39->0.39 s, load median 7% max 13%
+[04:42:16]   OverloadN round 12/12 (measured): 42 compiles, 37 s, sentinel 0.39->0.40 s, load median 7% max 13%
+[04:42:16] job OverloadC: 20 cells x 12 rounds
+[04:44:33]   OverloadC round 1/12 (warm-up): 22 compiles, 137 s, sentinel 0.78->0.79 s, load median 7% max 10%
+[04:46:51]   OverloadC round 2/12 (measured): 22 compiles, 139 s, sentinel 0.78->0.78 s, load median 8% max 18%
+[04:49:07]   OverloadC round 3/12 (measured): 22 compiles, 136 s, sentinel 0.77->0.78 s, load median 7% max 12%
+[04:51:24]   OverloadC round 4/12 (measured): 22 compiles, 137 s, sentinel 0.78->0.79 s, load median 7% max 9%
+[04:53:42]   OverloadC round 5/12 (measured): 22 compiles, 137 s, sentinel 0.79->0.79 s, load median 8% max 11%
+[04:55:58]   OverloadC round 6/12 (measured): 22 compiles, 136 s, sentinel 0.77->0.77 s, load median 8% max 13%
+[04:58:14]   OverloadC round 7/12 (measured): 22 compiles, 136 s, sentinel 0.78->0.78 s, load median 7% max 10%
+[05:00:31]   OverloadC round 8/12 (measured): 22 compiles, 137 s, sentinel 0.79->0.79 s, load median 7% max 11%
+[05:02:50]   OverloadC round 9/12 (measured): 22 compiles, 139 s, sentinel 0.79->0.77 s, load median 7% max 19%
+[05:05:10]   OverloadC round 10/12 (measured): 22 compiles, 140 s, sentinel 0.78->0.78 s, load median 8% max 9%
+[05:07:31]   OverloadC round 11/12 (measured): 22 compiles, 142 s, sentinel 0.77->0.78 s, load median 8% max 14%
+[05:09:50]   OverloadC round 12/12 (measured): 22 compiles, 139 s, sentinel 0.78->0.79 s, load median 8% max 14%
+[05:09:50] job OverloadK: 12 cells x 12 rounds
+[05:10:16]   OverloadK round 1/12 (warm-up): 14 compiles, 26 s, sentinel 0.51->0.50 s, load median 8% max 24%
+[05:10:42]   OverloadK round 2/12 (measured): 14 compiles, 26 s, sentinel 0.50->0.51 s, load median 8% max 13%
+[05:11:08]   OverloadK round 3/12 (measured): 14 compiles, 26 s, sentinel 0.49->0.50 s, load median 8% max 12%
+[05:11:34]   OverloadK round 4/12 (measured): 14 compiles, 26 s, sentinel 0.50->0.50 s, load median 8% max 14%
+[05:12:00]   OverloadK round 5/12 (measured): 14 compiles, 26 s, sentinel 0.50->0.50 s, load median 8% max 16%
+[05:12:27]   OverloadK round 6/12 (measured): 14 compiles, 26 s, sentinel 0.50->0.51 s, load median 7% max 8%
+[05:12:53]   OverloadK round 7/12 (measured): 14 compiles, 26 s, sentinel 0.51->0.51 s, load median 8% max 9%
+[05:13:19]   OverloadK round 8/12 (measured): 14 compiles, 26 s, sentinel 0.51->0.51 s, load median 7% max 10%
+[05:13:45]   OverloadK round 9/12 (measured): 14 compiles, 26 s, sentinel 0.51->0.50 s, load median 8% max 10%
+[05:14:11]   OverloadK round 10/12 (measured): 14 compiles, 26 s, sentinel 0.50->0.50 s, load median 8% max 9%
+[05:14:37]   OverloadK round 11/12 (measured): 14 compiles, 26 s, sentinel 0.51->0.51 s, load median 7% max 13%
+[05:15:04]   OverloadK round 12/12 (measured): 14 compiles, 26 s, sentinel 0.50->0.51 s, load median 7% max 9%
+[05:15:04] job CompilerN: 40 cells x 12 rounds
+[05:16:13]   CompilerN round 1/12 (warm-up): 42 compiles, 70 s, sentinel 1.82->1.84 s, load median 8% max 19%
+[05:17:23]   CompilerN round 2/12 (measured): 42 compiles, 69 s, sentinel 1.84->1.84 s, load median 7% max 29%
+[05:18:32]   CompilerN round 3/12 (measured): 42 compiles, 69 s, sentinel 1.81->1.86 s, load median 7% max 10%
+[05:19:42]   CompilerN round 4/12 (measured): 42 compiles, 70 s, sentinel 1.86->1.82 s, load median 7% max 18%
+[05:20:52]   CompilerN round 5/12 (measured): 42 compiles, 70 s, sentinel 1.82->1.84 s, load median 7% max 13%
+[05:22:02]   CompilerN round 6/12 (measured): 42 compiles, 70 s, sentinel 1.81->1.81 s, load median 7% max 11%
+[05:23:11]   CompilerN round 7/12 (measured): 42 compiles, 70 s, sentinel 1.85->1.82 s, load median 7% max 23%
+[05:24:21]   CompilerN round 8/12 (measured): 42 compiles, 69 s, sentinel 1.82->1.85 s, load median 7% max 12%
+[05:25:30]   CompilerN round 9/12 (measured): 42 compiles, 70 s, sentinel 1.85->1.80 s, load median 7% max 18%
+[05:26:40]   CompilerN round 10/12 (measured): 42 compiles, 70 s, sentinel 1.79->1.83 s, load median 7% max 11%
+[05:27:50]   CompilerN round 11/12 (measured): 42 compiles, 70 s, sentinel 1.83->1.84 s, load median 7% max 12%
+[05:28:59]   CompilerN round 12/12 (measured): 42 compiles, 70 s, sentinel 1.83->1.87 s, load median 7% max 11%
+[05:28:59] job CompilerHeavy: 40 cells x 12 rounds
+[05:30:55]   CompilerHeavy round 1/12 (warm-up): 42 compiles, 116 s, sentinel 0.45->0.47 s, load median 7% max 11%
+[05:32:51]   CompilerHeavy round 2/12 (measured): 42 compiles, 116 s, sentinel 0.45->0.45 s, load median 8% max 22%
+[05:34:47]   CompilerHeavy round 3/12 (measured): 42 compiles, 116 s, sentinel 0.46->0.46 s, load median 7% max 14%
+[05:36:43]   CompilerHeavy round 4/12 (measured): 42 compiles, 116 s, sentinel 0.46->0.47 s, load median 7% max 12%
+[05:38:39]   CompilerHeavy round 5/12 (measured): 42 compiles, 116 s, sentinel 0.46->0.46 s, load median 8% max 26%
+[05:40:35]   CompilerHeavy round 6/12 (measured): 42 compiles, 116 s, sentinel 0.45->0.46 s, load median 7% max 14%
+[05:42:30]   CompilerHeavy round 7/12 (measured): 42 compiles, 116 s, sentinel 0.45->0.46 s, load median 7% max 10%
+[05:44:26]   CompilerHeavy round 8/12 (measured): 42 compiles, 116 s, sentinel 0.45->0.45 s, load median 7% max 14%
+[05:46:22]   CompilerHeavy round 9/12 (measured): 42 compiles, 116 s, sentinel 0.46->0.46 s, load median 7% max 10%
+[05:48:18]   CompilerHeavy round 10/12 (measured): 42 compiles, 116 s, sentinel 0.45->0.46 s, load median 7% max 22%
+[05:50:14]   CompilerHeavy round 11/12 (measured): 42 compiles, 116 s, sentinel 0.45->0.44 s, load median 8% max 15%
+[05:52:10]   CompilerHeavy round 12/12 (measured): 42 compiles, 117 s, sentinel 0.45->0.45 s, load median 9% max 25%
+[05:52:10] job CompilerFlag: 32 cells x 12 rounds
+[05:52:57]   CompilerFlag round 1/12 (warm-up): 34 compiles, 47 s, sentinel 1.87->1.88 s, load median 7% max 16%
+[05:53:44]   CompilerFlag round 2/12 (measured): 34 compiles, 47 s, sentinel 1.88->1.85 s, load median 7% max 14%
+[05:54:31]   CompilerFlag round 3/12 (measured): 34 compiles, 47 s, sentinel 1.86->1.89 s, load median 7% max 10%
+[05:55:18]   CompilerFlag round 4/12 (measured): 34 compiles, 47 s, sentinel 1.89->1.88 s, load median 7% max 12%
+[05:56:04]   CompilerFlag round 5/12 (measured): 34 compiles, 46 s, sentinel 1.86->1.86 s, load median 8% max 11%
+[05:56:51]   CompilerFlag round 6/12 (measured): 34 compiles, 47 s, sentinel 1.89->1.88 s, load median 7% max 12%
+[05:57:38]   CompilerFlag round 7/12 (measured): 34 compiles, 47 s, sentinel 1.89->1.88 s, load median 7% max 14%
+[05:58:25]   CompilerFlag round 8/12 (measured): 34 compiles, 47 s, sentinel 1.86->1.86 s, load median 7% max 10%
+[05:59:12]   CompilerFlag round 9/12 (measured): 34 compiles, 47 s, sentinel 1.92->1.86 s, load median 7% max 13%
+[05:59:58]   CompilerFlag round 10/12 (measured): 34 compiles, 47 s, sentinel 1.87->1.87 s, load median 7% max 11%
+[06:00:45]   CompilerFlag round 11/12 (measured): 34 compiles, 47 s, sentinel 1.85->1.89 s, load median 7% max 15%
+[06:01:32]   CompilerFlag round 12/12 (measured): 34 compiles, 47 s, sentinel 1.88->1.85 s, load median 7% max 9%
+[06:01:32] session complete

@@ -1,0 +1,36 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": { "major": 3, "minor": 24, "patch": 0 },
+  "configurePresets": [
+    {
+      "name": "gcc16.2-local",
+      "displayName": "GCC 16.2.0 (local, P2996 reflection) — the measured compiler",
+      "description": "Machine-specific: GCC 16.2.0 built by Harness/build_gcc.sh + MSYS2 ucrt64 assembler. Reviewers: copy this and point CMAKE_CXX_COMPILER at your own GCC 16 with -freflection.",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/Build/gcc16.2",
+      "cacheVariables": {
+        "CMAKE_CXX_COMPILER": "C:/msys64/home/kacha/gcc-16.2.0-install/bin/g++.exe",
+        "CMAKE_CXX_FLAGS": "-B C:/msys64/ucrt64/bin/"
+      }
+    },
+    {
+      "name": "gcc16.1-local",
+      "displayName": "GCC 16.1.0 (local) — the cross-check compiler",
+      "description": "Machine-specific: GCC 16.1.0 + MSYS2 ucrt64 assembler.",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/Build/gcc16.1",
+      "cacheVariables": {
+        "CMAKE_CXX_COMPILER": "C:/msys64/home/kacha/gcc-16-install/bin/g++.exe",
+        "CMAKE_CXX_FLAGS": "-B C:/msys64/ucrt64/bin/"
+      }
+    }
+  ],
+  "buildPresets": [
+    { "name": "gcc16.2-local", "configurePreset": "gcc16.2-local" },
+    { "name": "gcc16.1-local", "configurePreset": "gcc16.1-local" }
+  ],
+  "testPresets": [
+    { "name": "gcc16.2-local", "configurePreset": "gcc16.2-local", "output": { "outputOnFailure": true } },
+    { "name": "gcc16.1-local", "configurePreset": "gcc16.1-local", "output": { "outputOnFailure": true } }
+  ]
+}

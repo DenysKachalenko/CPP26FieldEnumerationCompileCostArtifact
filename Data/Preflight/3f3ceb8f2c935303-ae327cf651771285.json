@@ -1,0 +1,1164 @@
+{
+ "compiler": "g++.exe (GCC) 16.1.0",
+ "deps_ok": true,
+ "flags": [
+  {
+   "arm": "manual",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "manual_unique",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "xmacro",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "xmacro_unique",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "reflect",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "reflect_plain",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "reflect_visit",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "p1061",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "p1061_visit",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "pfr",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "pfr_classic",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "pfr_native",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "rflcpp",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "rflcpp_native",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "glaze_native",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "glaze_classic",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "manual_unique_noflag",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "p1061_noflag",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "pfr_noflag",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "rflcpp_noflag",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "glaze_classic_noflag",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "reflect_plain_noreport",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "pfr_noreport",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "manual_unique_noreport",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "reflect_split",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "arm": "pfr_split",
+   "ok": true,
+   "problems": []
+  }
+ ],
+ "oracles": [
+  {
+   "corpus": "scalar",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "(none)"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 5 of 5 scalar structs, 16 fields (360 bytes, 216 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "scalar",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "-DBOOST_PFR_USE_CPP26=0"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 5 of 5 scalar structs, 16 fields (360 bytes, 216 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "scalar",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "-DBOOST_PFR_USE_CPP26_REFLECTION=1"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 5 of 5 scalar structs, 16 fields (360 bytes, 216 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "scalar",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "-DREFLECTCPP_USE_CPP26_REFLECTION"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 5 of 5 scalar structs, 16 fields (360 bytes, 216 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "scalar",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "-DGLZ_REFLECTION26=1"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 5 of 5 scalar structs, 16 fields (360 bytes, 216 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "scalar",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "-DGLZ_REFLECTION26=0"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 5 of 5 scalar structs, 16 fields (360 bytes, 216 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "scalar",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "-fno-reflection"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 8 arms == manual_unique on 5 of 5 scalar structs, 16 fields (360 bytes, 216 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "scalar",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "-DGLZ_REFLECTION26=0",
+    "-fno-reflection"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 8 arms == manual_unique on 5 of 5 scalar structs, 16 fields (360 bytes, 216 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "scalar",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "(none)"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 3 of 3 scalar structs, 128 fields (1728 bytes, 1029 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "scalar",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "-DBOOST_PFR_USE_CPP26=0"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 3 of 3 scalar structs, 128 fields (1728 bytes, 1029 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "scalar",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "-DBOOST_PFR_USE_CPP26_REFLECTION=1"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 3 of 3 scalar structs, 128 fields (1728 bytes, 1029 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "scalar",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "-DREFLECTCPP_USE_CPP26_REFLECTION"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 3 of 3 scalar structs, 128 fields (1728 bytes, 1029 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "scalar",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "-DGLZ_REFLECTION26=1"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 3 of 3 scalar structs, 128 fields (1728 bytes, 1029 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "scalar",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "-DGLZ_REFLECTION26=0"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 3 of 3 scalar structs, 128 fields (1728 bytes, 1029 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "scalar",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "-fno-reflection"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 8 arms == manual_unique on 3 of 3 scalar structs, 128 fields (1728 bytes, 1029 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "scalar",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "-DGLZ_REFLECTION26=0",
+    "-fno-reflection"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 8 arms == manual_unique on 3 of 3 scalar structs, 128 fields (1728 bytes, 1029 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "(none)"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 5 of 5 rich structs, 16 fields (772 bytes, 251 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "-DBOOST_PFR_USE_CPP26=0"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 5 of 5 rich structs, 16 fields (772 bytes, 251 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "-DBOOST_PFR_USE_CPP26_REFLECTION=1"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 5 of 5 rich structs, 16 fields (772 bytes, 251 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "-DREFLECTCPP_USE_CPP26_REFLECTION"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 5 of 5 rich structs, 16 fields (772 bytes, 251 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "-DGLZ_REFLECTION26=1"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 5 of 5 rich structs, 16 fields (772 bytes, 251 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "-DGLZ_REFLECTION26=0"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 5 of 5 rich structs, 16 fields (772 bytes, 251 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "-fno-reflection"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 8 arms == manual_unique on 5 of 5 rich structs, 16 fields (772 bytes, 251 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "-DGLZ_REFLECTION26=0",
+    "-fno-reflection"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 8 arms == manual_unique on 5 of 5 rich structs, 16 fields (772 bytes, 251 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "(none)"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 3 of 3 rich structs, 128 fields (3753 bytes, 1284 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "-DBOOST_PFR_USE_CPP26=0"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 3 of 3 rich structs, 128 fields (3753 bytes, 1284 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "-DBOOST_PFR_USE_CPP26_REFLECTION=1"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 3 of 3 rich structs, 128 fields (3753 bytes, 1284 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "-DREFLECTCPP_USE_CPP26_REFLECTION"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 3 of 3 rich structs, 128 fields (3753 bytes, 1284 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "-DGLZ_REFLECTION26=1"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 3 of 3 rich structs, 128 fields (3753 bytes, 1284 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "-DGLZ_REFLECTION26=0"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 11 arms == manual_unique on 3 of 3 rich structs, 128 fields (3753 bytes, 1284 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "-fno-reflection"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 8 arms == manual_unique on 3 of 3 rich structs, 128 fields (3753 bytes, 1284 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "rich",
+   "n": 3,
+   "m": 128,
+   "flags": [
+    "-DGLZ_REFLECTION26=0",
+    "-fno-reflection"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 8 arms == manual_unique on 3 of 3 rich structs, 128 fields (3753 bytes, 1284 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "hetero",
+   "n": 1600,
+   "m": 8,
+   "flags": [
+    "(none)"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 10 arms == manual_unique on 59 of 1600 hetero structs, 594 fields in total, nested (116826 bytes, 55162 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "hetero",
+   "n": 1600,
+   "m": 8,
+   "flags": [
+    "-DBOOST_PFR_USE_CPP26=0"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 10 arms == manual_unique on 59 of 1600 hetero structs, 594 fields in total, nested (116826 bytes, 55162 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "hetero",
+   "n": 1600,
+   "m": 8,
+   "flags": [
+    "-DBOOST_PFR_USE_CPP26_REFLECTION=1"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 10 arms == manual_unique on 59 of 1600 hetero structs, 594 fields in total, nested (116826 bytes, 55162 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "hetero",
+   "n": 1600,
+   "m": 8,
+   "flags": [
+    "-DREFLECTCPP_USE_CPP26_REFLECTION"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 10 arms == manual_unique on 59 of 1600 hetero structs, 594 fields in total, nested (116826 bytes, 55162 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "hetero",
+   "n": 1600,
+   "m": 8,
+   "flags": [
+    "-DGLZ_REFLECTION26=1"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 10 arms == manual_unique on 59 of 1600 hetero structs, 594 fields in total, nested (116826 bytes, 55162 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "hetero",
+   "n": 1600,
+   "m": 8,
+   "flags": [
+    "-DGLZ_REFLECTION26=0"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 10 arms == manual_unique on 59 of 1600 hetero structs, 594 fields in total, nested (116826 bytes, 55162 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "hetero",
+   "n": 1600,
+   "m": 8,
+   "flags": [
+    "-fno-reflection"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 7 arms == manual_unique on 59 of 1600 hetero structs, 594 fields in total, nested (116826 bytes, 55162 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "hetero",
+   "n": 1600,
+   "m": 8,
+   "flags": [
+    "-DGLZ_REFLECTION26=0",
+    "-fno-reflection"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 7 arms == manual_unique on 59 of 1600 hetero structs, 594 fields in total, nested (116826 bytes, 55162 non-zero; reversed control detected)"
+   ]
+  },
+  {
+   "corpus": "overload",
+   "n": 5,
+   "m": 16,
+   "flags": [
+    "(none)"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: 10 overload variants agree on 5 types x 16 fields"
+   ]
+  },
+  {
+   "corpus": "Transient (P3394)",
+   "n": 1,
+   "m": 8,
+   "flags": [
+    "(none)"
+   ],
+   "ok": true,
+   "problems": [],
+   "output": [
+    "OK: reflect == manual, 67 bytes"
+   ]
+  }
+ ],
+ "manipulation": [
+  {
+   "a": "reflect",
+   "b": "reflect_plain",
+   "expect": "differs",
+   "isolates": "the P3394 annotation query",
+   "functions": [
+    66,
+    66
+   ],
+   "only_a": 13,
+   "only_b": 13,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "reflect_plain",
+   "b": "reflect_visit",
+   "expect": "differs",
+   "isolates": "API shape (inline vs callback), P2996",
+   "functions": [
+    66,
+    111
+   ],
+   "only_a": 13,
+   "only_b": 58,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "p1061",
+   "b": "p1061_visit",
+   "expect": "differs",
+   "isolates": "API shape (inline vs callback), P1061",
+   "functions": [
+    66,
+    111
+   ],
+   "only_a": 13,
+   "only_b": 58,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "reflect_plain",
+   "b": "p1061",
+   "expect": "differs",
+   "isolates": "enumeration mechanism (P2996 vs P1061), inline; also <meta> in the parse (fixed cost)",
+   "functions": [
+    66,
+    66
+   ],
+   "only_a": 13,
+   "only_b": 13,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "reflect_visit",
+   "b": "p1061_visit",
+   "expect": "differs",
+   "isolates": "enumeration mechanism, callback API; also <meta> in the parse (fixed cost)",
+   "functions": [
+    111,
+    111
+   ],
+   "only_a": 58,
+   "only_b": 58,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "p1061_visit",
+   "b": "pfr",
+   "expect": "differs",
+   "isolates": "Boost.PFR's machinery around the same P1061 core",
+   "functions": [
+    111,
+    201
+   ],
+   "only_a": 58,
+   "only_b": 148,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "manual",
+   "b": "manual_unique",
+   "expect": "differs",
+   "isolates": "one overloaded name vs distinct names",
+   "functions": [
+    74,
+    74
+   ],
+   "only_a": 5,
+   "only_b": 5,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "xmacro",
+   "b": "xmacro_unique",
+   "expect": "differs",
+   "isolates": "one overloaded name vs distinct names",
+   "functions": [
+    74,
+    74
+   ],
+   "only_a": 5,
+   "only_b": 5,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "pfr",
+   "b": "pfr_native",
+   "expect": "identical",
+   "isolates": "nothing per type: BOOST_PFR_USE_CPP26_REFLECTION does not reach for_each_field; the flag only adds headers (fixed cost)",
+   "functions": [
+    201,
+    201
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "pfr",
+   "b": "pfr_classic",
+   "expect": "differs",
+   "isolates": "Boost.PFR C++26 path vs C++17 path",
+   "functions": [
+    201,
+    296
+   ],
+   "only_a": 5,
+   "only_b": 100,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "rflcpp",
+   "b": "rflcpp_native",
+   "expect": "differs",
+   "isolates": "reflect-cpp C++20 path vs C++26 path",
+   "functions": [
+    482,
+    472
+   ],
+   "only_a": 15,
+   "only_b": 5,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "glaze_classic",
+   "b": "glaze_native",
+   "expect": "differs",
+   "isolates": "Glaze traditional vs P2996 backend",
+   "functions": [
+    178,
+    263
+   ],
+   "only_a": 0,
+   "only_b": 85,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "manual_unique",
+   "b": "manual_unique_noflag",
+   "expect": "identical",
+   "isolates": "the -freflection flag only",
+   "functions": [
+    74,
+    74
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "p1061",
+   "b": "p1061_noflag",
+   "expect": "identical",
+   "isolates": "the -freflection flag only",
+   "functions": [
+    66,
+    66
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "pfr",
+   "b": "pfr_noflag",
+   "expect": "identical",
+   "isolates": "the -freflection flag only",
+   "functions": [
+    201,
+    201
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "rflcpp",
+   "b": "rflcpp_noflag",
+   "expect": "identical",
+   "isolates": "the -freflection flag only",
+   "functions": [
+    482,
+    482
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "glaze_classic",
+   "b": "glaze_classic_noflag",
+   "expect": "identical",
+   "isolates": "the -freflection flag only",
+   "functions": [
+    178,
+    178
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "reflect",
+   "b": "reflect_split",
+   "expect": "differs",
+   "isolates": "call-site layout only (-O2 control)",
+   "functions": [
+    66,
+    70
+   ],
+   "only_a": 1,
+   "only_b": 5,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "pfr",
+   "b": "pfr_split",
+   "expect": "differs",
+   "isolates": "call-site layout only (-O2 control)",
+   "functions": [
+    201,
+    205
+   ],
+   "only_a": 1,
+   "only_b": 5,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "ovl_flat",
+   "b": "(idiom shape)",
+   "expect": "shape",
+   "isolates": "free function per type, one name; qualified call from user code",
+   "functions": [
+    0,
+    0
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "ovl_adl",
+   "b": "(idiom shape)",
+   "expect": "shape",
+   "isolates": "free function per type, one name, one namespace (declared like nlohmann to_json, Boost.JSON tag_invoke, fmt format_as); unqualified call from user code",
+   "functions": [
+    0,
+    0
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "ovl_adl_template",
+   "b": "(idiom shape)",
+   "expect": "shape",
+   "isolates": "the same overloads, reached by an unqualified dependent call inside a library dispatch template (the libraries' own call shape)",
+   "functions": [
+    0,
+    0
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "ovl_constrained",
+   "b": "(idiom shape)",
+   "expect": "shape",
+   "isolates": "constrained function template per type, one name, ADL (nlohmann::json v3.12 NON_INTRUSIVE declaration form)",
+   "functions": [
+    0,
+    0
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "ovl_archive",
+   "b": "(idiom shape)",
+   "expect": "shape",
+   "isolates": "function template serialize(Archive&, T&, const unsigned int) per type, ADL (Boost.Serialization non-intrusive / cereal external form)",
+   "functions": [
+    0,
+    0
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "ovl_adl_per_ns",
+   "b": "(idiom shape)",
+   "expect": "shape",
+   "isolates": "free function per type, one name, one namespace per type, ADL",
+   "functions": [
+    0,
+    0
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "ovl_hidden_friend",
+   "b": "(idiom shape)",
+   "expect": "shape",
+   "isolates": "hidden friend per type, one name, ADL",
+   "functions": [
+    0,
+    0
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "ovl_member",
+   "b": "(idiom shape)",
+   "expect": "shape",
+   "isolates": "member function",
+   "functions": [
+    0,
+    0
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "ovl_specialization",
+   "b": "(idiom shape)",
+   "expect": "shape",
+   "isolates": "explicit specialization of a Serializer<T> class template (glz::meta / fmt::formatter form)",
+   "functions": [
+    0,
+    0
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  },
+  {
+   "a": "ovl_unique",
+   "b": "(idiom shape)",
+   "expect": "shape",
+   "isolates": "free function per type, distinct name per type",
+   "functions": [
+    0,
+    0
+   ],
+   "only_a": 0,
+   "only_b": 0,
+   "ok": true,
+   "problems": []
+  }
+ ],
+ "o2_profile": [
+  {
+   "arm": "manual_unique",
+   "functions": 166,
+   "text_bytes": 77712
+  },
+  {
+   "arm": "xmacro_unique",
+   "functions": 166,
+   "text_bytes": 77712
+  },
+  {
+   "arm": "reflect",
+   "functions": 166,
+   "text_bytes": 77712
+  },
+  {
+   "arm": "reflect_plain",
+   "functions": 166,
+   "text_bytes": 77712
+  },
+  {
+   "arm": "reflect_visit",
+   "functions": 169,
+   "text_bytes": 86608
+  },
+  {
+   "arm": "p1061",
+   "functions": 166,
+   "text_bytes": 77712
+  },
+  {
+   "arm": "p1061_visit",
+   "functions": 169,
+   "text_bytes": 86608
+  },
+  {
+   "arm": "pfr",
+   "functions": 4,
+   "text_bytes": 86368
+  },
+  {
+   "arm": "pfr_classic",
+   "functions": 3,
+   "text_bytes": 91504
+  },
+  {
+   "arm": "manual",
+   "functions": 166,
+   "text_bytes": 77712
+  },
+  {
+   "arm": "reflect_split",
+   "functions": 202,
+   "text_bytes": 83728
+  },
+  {
+   "arm": "pfr_split",
+   "functions": 202,
+   "text_bytes": 83888
+  }
+ ],
+ "ok": true,
+ "fingerprint": "3f3ceb8f2c9353039a55ebf4c9fbc694d976182d28f4790478b2a77cd53cc344",
+ "cc1plus_sha256": "ae327cf6517712853b02de5cadb258db8163b0f61251b0e47bd4d72f4570ce95",
+ "utc": "2026-11-18T00:57:28+00:00",
+ "source": "Data/Sessions/S1a (2026-11-18 night); checked code identical except Harness/campaign.py, cc1plus identical"
+}

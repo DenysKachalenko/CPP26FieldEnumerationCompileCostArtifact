@@ -1,0 +1,29 @@
+{
+  "_note": "Single pin file for the third-party libraries. Read by CMakeLists.txt (FetchContent) and by Harness/deps.py (the measurement harness). Each archive is the GitHub tarball of the pinned commit, verified by sha256.",
+  "deps": {
+    "pfr": {
+      "repository": "https://github.com/boostorg/pfr",
+      "ref": "boost-1.92.0",
+      "commit": "401385c240027423acbb1eb6dea2abe0043db5aa",
+      "url": "https://github.com/boostorg/pfr/archive/401385c240027423acbb1eb6dea2abe0043db5aa.tar.gz",
+      "sha256": "41512953ffb2d13cfaa91cf9b93c7e6f4cbe2fe76cf81aca82c10619b9ee8d2f",
+      "include": "include"
+    },
+    "reflect-cpp": {
+      "repository": "https://github.com/munich-data-engineering/reflect-cpp",
+      "ref": "v0.27.1",
+      "commit": "e0ee3f6f2f8a4d54ce4e2e34bb9d23140c926709",
+      "url": "https://github.com/munich-data-engineering/reflect-cpp/archive/e0ee3f6f2f8a4d54ce4e2e34bb9d23140c926709.tar.gz",
+      "sha256": "0b7d9c2fa5e22c9b636b810bf474ac52f4fcf0f9d56a87ca2f06a60769e7c147",
+      "include": "include"
+    },
+    "glaze": {
+      "repository": "https://github.com/stephenberry/glaze",
+      "ref": "v9.1.0",
+      "commit": "43b175e7446862b84ed07b2e5f5138433777680e",
+      "url": "https://github.com/stephenberry/glaze/archive/43b175e7446862b84ed07b2e5f5138433777680e.tar.gz",
+      "sha256": "3216baf5b14874a3a833216f5d1a6e55c6eb09c70fc453c012a6b0217de06682",
+      "include": "include"
+    }
+  }
+}

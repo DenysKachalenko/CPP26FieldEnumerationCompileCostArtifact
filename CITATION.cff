@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: >-
+  If you use this code or data, please cite the paper (preferred-citation) and this
+  archive. Code under the MIT license; data and text under CC BY 4.0 (LICENSE-DATA.md).
+type: software
+title: >-
+  Artifact of "What Field Enumeration Costs to Compile in C++26"
+version: 1.0.0
+doi: 10.5281/zenodo.24443567
+authors:
+  - family-names: Kachalenko
+    given-names: Denys
+    orcid: "https://orcid.org/0009-0003-8597-329X"
+    affiliation: Independent researcher
+    country: UA
+license: MIT
+repository-code: "https://github.com/DenysKachalenko/CPP26FieldEnumerationCompileCostArtifact"
+abstract: >-
+  Generator, measurement harness, raw data of three measurement sessions on GCC 16.2.0
+  (with GCC 16.1.0 alongside), and the analysis that regenerates every number and figure
+  of the paper: the compile-time cost of enumerating the fields of a struct with C++26
+  static reflection (P2996, P3394), structured-binding packs (P1061), the reflection
+  libraries Boost.PFR, reflect-cpp and Glaze, X-macros and hand-written serializers.
+keywords:
+  - C++26
+  - static reflection
+  - P2996
+  - compile time
+  - serialization
+  - GCC
+preferred-citation:
+  type: article
+  title: >-
+    What Field Enumeration Costs to Compile in C++26: Native Reflection, Structured-Binding
+    Packs, Reflection Libraries and Hand-Written Serializers on GCC 16
+  authors:
+    - family-names: Kachalenko
+      given-names: Denys
+      orcid: "https://orcid.org/0009-0003-8597-329X"
+      affiliation: Independent researcher
+      country: UA
+  year: 2026
+  journal: arXiv
+  identifiers:
+    - type: other
+      value: "arXiv:⟦R⟧"
+      description: arXiv identifier (placeholder until the preprint is posted)

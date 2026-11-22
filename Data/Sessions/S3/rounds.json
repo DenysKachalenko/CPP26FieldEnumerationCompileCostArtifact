@@ -1,0 +1,100 @@
+{
+ "FrontendIdiom": {
+  "0": {
+   "seconds": 78.3,
+   "load_median_pct": 8.2,
+   "load_max_pct": 23.6,
+   "available_mb": 20154,
+   "swap_used_mb": 6495,
+   "end_utc": "2026-11-21T08:21:12+00:00"
+  },
+  "1": {
+   "seconds": 77.0,
+   "load_median_pct": 8.0,
+   "load_max_pct": 12.3,
+   "available_mb": 19964,
+   "swap_used_mb": 6492,
+   "end_utc": "2026-11-21T08:22:29+00:00"
+  },
+  "2": {
+   "seconds": 77.9,
+   "load_median_pct": 8.2,
+   "load_max_pct": 17.0,
+   "available_mb": 19339,
+   "swap_used_mb": 6128,
+   "end_utc": "2026-11-21T08:23:47+00:00"
+  },
+  "3": {
+   "seconds": 78.8,
+   "load_median_pct": 9.7,
+   "load_max_pct": 16.9,
+   "available_mb": 18734,
+   "swap_used_mb": 6123,
+   "end_utc": "2026-11-21T08:25:06+00:00"
+  },
+  "4": {
+   "seconds": 78.2,
+   "load_median_pct": 8.3,
+   "load_max_pct": 12.8,
+   "available_mb": 18706,
+   "swap_used_mb": 6123,
+   "end_utc": "2026-11-21T08:26:24+00:00"
+  },
+  "5": {
+   "seconds": 77.2,
+   "load_median_pct": 7.7,
+   "load_max_pct": 10.8,
+   "available_mb": 18541,
+   "swap_used_mb": 6121,
+   "end_utc": "2026-11-21T08:27:41+00:00"
+  },
+  "6": {
+   "seconds": 77.5,
+   "load_median_pct": 7.4,
+   "load_max_pct": 10.2,
+   "available_mb": 18564,
+   "swap_used_mb": 6050,
+   "end_utc": "2026-11-21T08:28:58+00:00"
+  },
+  "7": {
+   "seconds": 77.9,
+   "load_median_pct": 7.2,
+   "load_max_pct": 14.1,
+   "available_mb": 18476,
+   "swap_used_mb": 6050,
+   "end_utc": "2026-11-21T08:30:16+00:00"
+  },
+  "8": {
+   "seconds": 78.4,
+   "load_median_pct": 8.1,
+   "load_max_pct": 16.0,
+   "available_mb": 18339,
+   "swap_used_mb": 6049,
+   "end_utc": "2026-11-21T08:31:35+00:00"
+  },
+  "9": {
+   "seconds": 77.8,
+   "load_median_pct": 7.5,
+   "load_max_pct": 10.1,
+   "available_mb": 18310,
+   "swap_used_mb": 6049,
+   "end_utc": "2026-11-21T08:32:53+00:00"
+  },
+  "10": {
+   "seconds": 77.0,
+   "load_median_pct": 8.8,
+   "load_max_pct": 23.5,
+   "available_mb": 21806,
+   "swap_used_mb": 6466,
+   "end_utc": "2026-11-21T08:34:10+00:00"
+  },
+  "11": {
+   "seconds": 77.4,
+   "load_median_pct": 7.9,
+   "load_max_pct": 19.0,
+   "available_mb": 20382,
+   "swap_used_mb": 6591,
+   "end_utc": "2026-11-21T08:35:27+00:00"
+  }
+ }
+}
