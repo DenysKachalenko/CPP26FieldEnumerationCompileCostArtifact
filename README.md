@@ -1,5 +1,8 @@
 # CPP26FieldEnumerationCompileCostArtifact
 
+Paper: [arXiv:2611.30250](https://arxiv.org/abs/2611.30250) · Archive (this version):
+[doi:10.5281/zenodo.24443567](https://doi.org/10.5281/zenodo.24443567)
+
 The artifact of the paper *What Field Enumeration Costs to Compile in C++26: Native
 Reflection, Structured-Binding Packs, Reflection Libraries and Hand-Written Serializers on
 GCC 16* (Denys Kachalenko, 2026): the generator, the measurement harness, the raw data of
@@ -172,7 +175,7 @@ Please cite the paper, and the archive for the code and data:
 
 > Denys Kachalenko. 2026. What Field Enumeration Costs to Compile in C++26: Native
 > Reflection, Structured-Binding Packs, Reflection Libraries and Hand-Written Serializers
-> on GCC 16. arXiv:⟦R⟧.
+> on GCC 16. arXiv:2611.30250. https://arxiv.org/abs/2611.30250
 >
 > Denys Kachalenko. 2026. Artifact of "What Field Enumeration Costs to Compile in C++26"
 > (version 1.0.0). Zenodo.
@@ -182,7 +185,7 @@ Please cite the paper, and the archive for the code and data:
 
 ## Licenses
 
-- Code (`Harness/`, `Include/`, `Test/`, `Repro/`, the CMake files): MIT, see
+- Code (`Harness/`, `Include/`, `Test/`, `Repro/`, the CMake files, `Deps.json`): MIT, see
   [`LICENSE`](LICENSE).
 - Data (`Data/`) and text (`Paper.md`, `Latex/`, `Figures/` and the Markdown
   documentation): CC BY 4.0, see [`LICENSE-DATA.md`](LICENSE-DATA.md).

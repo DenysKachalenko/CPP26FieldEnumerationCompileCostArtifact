@@ -6,6 +6,7 @@ type: software
 title: >-
   Artifact of "What Field Enumeration Costs to Compile in C++26"
 version: 1.0.0
+date-released: 2026-11-22
 doi: 10.5281/zenodo.24443567
 authors:
   - family-names: Kachalenko
@@ -13,7 +14,9 @@ authors:
     orcid: "https://orcid.org/0009-0003-8597-329X"
     affiliation: Independent researcher
     country: UA
-license: MIT
+license:
+  - MIT
+  - CC-BY-4.0
 repository-code: "https://github.com/DenysKachalenko/CPP26FieldEnumerationCompileCostArtifact"
 abstract: >-
   Generator, measurement harness, raw data of three measurement sessions on GCC 16.2.0
@@ -41,7 +44,9 @@ preferred-citation:
       country: UA
   year: 2026
   journal: arXiv
+  doi: 10.48550/arXiv.2611.30250
+  url: "https://arxiv.org/abs/2611.30250"
   identifiers:
     - type: other
-      value: "arXiv:⟦R⟧"
-      description: arXiv identifier (placeholder until the preprint is posted)
+      value: "arXiv:2611.30250"
+      description: arXiv identifier
